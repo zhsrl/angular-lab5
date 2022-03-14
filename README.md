@@ -1,3 +1,1 @@
-# angular-gxzaa6
-
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-gxzaa6)
+# Lab 5 Angular Project
