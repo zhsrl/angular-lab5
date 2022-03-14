@@ -1,0 +1,12 @@
+<h3>Product Details</h3>
+
+<div *ngIf="product">
+<img id="image" src={{product.image}}/>
+<a class="name_with_link" href={{product.link}}>{{ product.name }}</a>
+<h4> {{ product.price | currency}} </h4>
+<h4> {{ product.ranking}} </h4>
+<p> {{ product.description }} </p>
+
+<button type="button" (click)="back()">Back</button>
+
+</div>

@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 
 import { products } from '../products';
+import { Router} from '@angular/router';
 
 @Component({
   selector: 'app-product-list',
@@ -10,9 +11,12 @@ import { products } from '../products';
 export class ProductListComponent {
   products = products;
 
-  share() {
-    window.alert('The product has been shared!');
-  }
+
+  productShare() {}
+
+  constructor(private route: Router) {}
+
+  ngOnInit(): void {}
 }
 
 

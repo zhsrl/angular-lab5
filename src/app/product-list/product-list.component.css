@@ -1,4 +1,46 @@
+button{
+  display: block;
+  margin-left: auto;
+}
 
+a{
+  font-size: 15px;
+}
+
+.top_menu{
+  padding: 10px;
+}
+
+#products{
+  font-size: 24px;
+}
+
+#categories{
+  font-size: 24px;
+  margin-left: 20px;
+}
+
+
+.item{
+  background-color: rgb(201, 201, 201);
+  padding: 5px;
+  margin: 5px;
+}
+
+p{
+  font-size: 10px;
+}
+
+.share{
+  display: flex;
+  width: 300px;
+  flex-direction: row;
+  background-color: blue;
+}
+
+.share_text{
+  color: white;
+}
 
 /*
 Copyright Google LLC. All Rights Reserved.
