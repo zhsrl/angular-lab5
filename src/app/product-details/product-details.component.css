@@ -4,3 +4,12 @@
   margin-right: auto;
   display: block;
 }
+
+#button_back{
+  margin-right: 10px;
+}
+
+#button_remove{
+  float: right;
+  background-color: red;
+}

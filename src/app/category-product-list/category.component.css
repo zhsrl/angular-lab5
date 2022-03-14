@@ -1,0 +1,32 @@
+#products{
+  font-size: 24px;
+}
+
+#categories{
+  font-size: 24px;
+  margin-left: 20px;
+}
+
+#image{
+  height: 100px;
+}
+.top_menu{
+  padding: 10px;
+}
+
+#black-div{
+  background-color: antiquewhite;
+  height: 100px;
+  width: 350px;
+}
+
+#item{
+  background-color: rgb(201, 201, 201);
+  padding: 5px;
+  margin: 5px;
+}
+
+a{
+  font-size: 15px;
+  font-weight: 500;
+}

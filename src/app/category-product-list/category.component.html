@@ -1,0 +1,30 @@
+<div class="top_menu">
+    <a id="products" (click)="toBack()">Products</a>
+    <a id="categories" [routerLink]="['categories']">Categories</a>
+</div>
+
+<mat-tab-group animationDuration="0ms">
+    <mat-tab label="Black" >
+        <div id="item" *ngFor="let product of filterItemByCategory('black')">
+            <a [routerLink]="['/product', product.id]">{{product.name}}</a>
+        </div>
+    </mat-tab>
+    <mat-tab label="White">
+        <div id="item" *ngFor="let product of filterItemByCategory('white')">
+            <a [routerLink]="['/product', product.id]">{{product.name}}</a>
+        </div>
+    </mat-tab>
+    <mat-tab label="Yellow">
+        <div id="item" *ngFor="let product of filterItemByCategory('yellow')">
+            <a [routerLink]="['/product', product.id]">{{product.name}}</a>
+        </div>
+    </mat-tab>
+    <mat-tab label="Green">
+        <div id="item" *ngFor="let product of filterItemByCategory('green')">
+            <a [routerLink]="['/product', product.id]">{{product.name}}</a>
+        </div>
+    </mat-tab>
+</mat-tab-group>
+
+
+
